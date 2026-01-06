@@ -1,14 +1,14 @@
 # Link
 https://core-mbru.github.io/flex-game.github.io/
 
-## Variables 
-https://core-mbru.github.io/flex-game.github.io/?site=mbru&lang=ar
-site -> Site ID
-lang -> ar or eng
+## URL Parameters 
+Link example: https://core-mbru.github.io/flex-game.github.io/?site=mbru&lang=ar \
+site -> Site ID \
+lang -> Language (values are ar or eng) \
 
 ## Site IDs
 
-For example, if we want the Rashid Hospital game in Arabic, our variables are site=rashid & lang=ar. So the URL becomes https://core-mbru.github.io/flex-game.github.io/?site=rashid&lang=ar
+For example, if we want the Rashid Hospital game in Arabic, our url params are site=rashid & lang=ar. So the URL becomes https://core-mbru.github.io/flex-game.github.io/?site=rashid&lang=ar
 
 | ID        | Ar Name                               | Eng Name                                   |
 |-----------|----------------------------------------|--------------------------------------------|
