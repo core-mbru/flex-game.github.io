@@ -1216,7 +1216,7 @@ gdjs.GameSceneCode.eventsList7(runtimeScene);} //End of subevents
 
 
 };gdjs.GameSceneCode.mapOfEmptyGDIntegrityCardObjectsEmptyGDLogoCardObjectsEmptyGDRespectCardObjectsEmptyGDHpCardObjectsEmptyGDExcellenceCardObjectsEmptyGDPatientsCardObjectsEmptyGDTeamworkCardObjectsEmptyGDEmpathyCardObjects = Hashtable.newFrom({"IntegrityCard": [], "LogoCard": [], "RespectCard": [], "HpCard": [], "ExcellenceCard": [], "PatientsCard": [], "TeamworkCard": [], "EmpathyCard": []});
-gdjs.GameSceneCode.userFunc0xf94b20 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.GameSceneCode.userFunc0xcd86e8 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 
@@ -1290,7 +1290,7 @@ gdjs.copyArray(gdjs.GameSceneCode.GDScoresObjects2, gdjs.GameSceneCode.GDScoresO
 
 
 const objects = gdjs.GameSceneCode.GDScoresObjects3;
-gdjs.GameSceneCode.userFunc0xf94b20(runtimeScene, objects);
+gdjs.GameSceneCode.userFunc0xcd86e8(runtimeScene, objects);
 
 }
 
