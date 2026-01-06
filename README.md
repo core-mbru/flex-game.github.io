@@ -4,7 +4,7 @@ https://core-mbru.github.io/flex-game.github.io/
 ## URL Parameters 
 Link example: https://core-mbru.github.io/flex-game.github.io/?site=mbru&lang=ar \
 site -> Site ID \
-lang -> Language (values are ar or eng) \
+lang -> Language (values are ar or eng)
 
 ## Site IDs
 
