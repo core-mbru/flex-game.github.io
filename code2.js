@@ -1216,7 +1216,7 @@ gdjs.GameScene_45backup3Code.eventsList7(runtimeScene);} //End of subevents
 
 
 };gdjs.GameScene_45backup3Code.mapOfEmptyGDIntegrityCardObjectsEmptyGDLogoCardObjectsEmptyGDRespectCardObjectsEmptyGDHpCardObjectsEmptyGDExcellenceCardObjectsEmptyGDPatientsCardObjectsEmptyGDTeamworkCardObjectsEmptyGDEmpathyCardObjects = Hashtable.newFrom({"IntegrityCard": [], "LogoCard": [], "RespectCard": [], "HpCard": [], "ExcellenceCard": [], "PatientsCard": [], "TeamworkCard": [], "EmpathyCard": []});
-gdjs.GameScene_45backup3Code.userFunc0xcd81a0 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.GameScene_45backup3Code.userFunc0xcf1838 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 
@@ -1290,7 +1290,7 @@ gdjs.copyArray(gdjs.GameScene_45backup3Code.GDScoresObjects2, gdjs.GameScene_45b
 
 
 const objects = gdjs.GameScene_45backup3Code.GDScoresObjects3;
-gdjs.GameScene_45backup3Code.userFunc0xcd81a0(runtimeScene, objects);
+gdjs.GameScene_45backup3Code.userFunc0xcf1838(runtimeScene, objects);
 
 }
 

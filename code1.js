@@ -1216,7 +1216,7 @@ gdjs.GameSceneCode.eventsList7(runtimeScene);} //End of subevents
 
 
 };gdjs.GameSceneCode.mapOfEmptyGDIntegrityCardObjectsEmptyGDLogoCardObjectsEmptyGDRespectCardObjectsEmptyGDHpCardObjectsEmptyGDExcellenceCardObjectsEmptyGDPatientsCardObjectsEmptyGDTeamworkCardObjectsEmptyGDEmpathyCardObjects = Hashtable.newFrom({"IntegrityCard": [], "LogoCard": [], "RespectCard": [], "HpCard": [], "ExcellenceCard": [], "PatientsCard": [], "TeamworkCard": [], "EmpathyCard": []});
-gdjs.GameSceneCode.userFunc0xa5a8f0 = function GDJSInlineCode(runtimeScene, objects) {
+gdjs.GameSceneCode.userFunc0xdf7020 = function GDJSInlineCode(runtimeScene, objects) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 
@@ -1290,7 +1290,7 @@ gdjs.copyArray(gdjs.GameSceneCode.GDScoresObjects2, gdjs.GameSceneCode.GDScoresO
 
 
 const objects = gdjs.GameSceneCode.GDScoresObjects3;
-gdjs.GameSceneCode.userFunc0xa5a8f0(runtimeScene, objects);
+gdjs.GameSceneCode.userFunc0xdf7020(runtimeScene, objects);
 
 }
 
@@ -1337,6 +1337,8 @@ runtimeScene.getAsyncTasksManager().addTask(gdjs.evtTools.runtimeScene.wait(3), 
 };gdjs.GameSceneCode.asyncCallback14881484 = function (runtimeScene, asyncObjectsList) {
 asyncObjectsList.restoreLocalVariablesContainers(gdjs.GameSceneCode.localVariables);
 {gdjs.evtTools.camera.hideLayer(runtimeScene, "UI");
+}
+{gdjs.evtTools.camera.showLayer(runtimeScene, "ScoreboardAR");
 }
 gdjs.GameSceneCode.localVariables.length = 0;
 }
@@ -1543,8 +1545,6 @@ isConditionTrue_0 = false;
 if (isConditionTrue_0) {
 gdjs.copyArray(runtimeScene.getObjects("Points"), gdjs.GameSceneCode.GDPointsObjects2);
 gdjs.copyArray(runtimeScene.getObjects("YouWon"), gdjs.GameSceneCode.GDYouWonObjects2);
-{gdjs.evtTools.camera.showLayer(runtimeScene, "ScoreboardAR");
-}
 {for(var i = 0, len = gdjs.GameSceneCode.GDPointsObjects2.length ;i < len;++i) {
     gdjs.GameSceneCode.GDPointsObjects2[i].getBehavior("Text").setText("لقد حصلت على " + runtimeScene.getScene().getVariables().getFromIndex(0).getAsString() + " نقاط " + runtimeScene.getGame().getVariables().getFromIndex(5).getAsString());
 }
