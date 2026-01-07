@@ -125,7 +125,7 @@ gdjs.StartSceneCode.eventsList0 = function(runtimeScene) {
 }
 
 
-};gdjs.StartSceneCode.userFunc0xd789e0 = function GDJSInlineCode(runtimeScene) {
+};gdjs.StartSceneCode.userFunc0xdbdd50 = function GDJSInlineCode(runtimeScene) {
 "use strict";
 runtimeScene.setBackgroundColor(100,100,240);
 
@@ -184,7 +184,7 @@ gdjs.StartSceneCode.eventsList2 = function(runtimeScene) {
 {
 
 
-gdjs.StartSceneCode.userFunc0xd789e0(runtimeScene);
+gdjs.StartSceneCode.userFunc0xdbdd50(runtimeScene);
 
 }
 
